@@ -26,6 +26,10 @@ def init_db():
 
 # Resetear la base de datos
 def reset_database():
+    confirm = input(Fore.YELLOW + "¿Estás seguro de que querés resetear la base de datos? Esto eliminará todos los productos. (s/n): ").lower()
+    if confirm != 's':
+        print(Fore.RED + "Operación cancelada.")
+        return
     cursor.execute('''DROP TABLE IF EXISTS productos''')
     create_table()
     print(Fore.GREEN + "Base de datos reseteada correctamente")

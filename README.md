@@ -1,15 +1,40 @@
-# Esta es una aplicación que permite gestionar productos con una base de datos SQLite desde la terminal
+# Gestor de Productos - Aplicación de Terminal con SQLite
 
-## Para usar la aplicación, debes hacer una copia del proyecto de la carpeta 'SqliteModule' y la guardes en tu computadora. Luego, puedes ejecutar el archivo 'app.py' para iniciar la aplicación. 
+Esta es una aplicación de consola desarrollada en Python que permite **gestionar productos** utilizando una base de datos SQLite.
 
-## Algunas funcionalidades que puedes probar son:
-- Agregar productos
-- Buscar productos
-- Mostrar todos los productos
-- Actualizar productos
-- Eliminar productos
-- Resetear la base de datos
-- Configurar un stock minimo
-- Insertar 10 datos de prueba
+---
 
-## Cabe recalcar que necesitas tener instalado Python en tu computadora para ejecutar el programa. También sqlite3 que viene por defecto con Python. Si no tienes Python instalado, puedes descargarlo desde el sitio web oficial de Python.
+## 📁 Instrucciones de uso
+
+1. Descargá o cloná este repositorio en tu computadora.
+2. Asegurate de tener Python 3 instalado. Si no lo tenés, podés descargarlo desde [python.org](https://www.python.org/downloads/).
+3. Instalá la dependencia necesaria (Colorama):
+
+```bash
+pip install colorama
+```
+
+# 🧰 Funcionalidades disponibles
+
+➕ Agregar productos
+
+🔍 Buscar productos
+
+📋 Mostrar todos los productos
+
+✏️ Actualizar productos
+
+❌ Eliminar productos
+
+♻️ Resetear la base de datos
+
+⚠️ Configurar stock mínimo
+
+🧪 Insertar 10 productos de prueba
+
+# 🗃️ Requisitos
+- Python 3.x
+
+- Módulo sqlite3 (incluido por defecto en Python)
+
+- Módulo colorama (instalable con pip)
